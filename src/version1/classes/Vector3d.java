@@ -1,6 +1,7 @@
 package version1.classes;
 
-import org.jblas.DoubleMatrix;
+//TODO: rm external library use
+//import org.jblas.DoubleMatrix;
 
 /**
  * User: Alex
