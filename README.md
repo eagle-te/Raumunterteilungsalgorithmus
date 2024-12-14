@@ -1,0 +1,2 @@
+# Raumunterteilungsalgorithmus
+space partition algorithm
