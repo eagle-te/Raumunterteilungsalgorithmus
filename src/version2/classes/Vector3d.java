@@ -1,6 +1,7 @@
 package version2.classes;
 
-import org.jblas.FloatMatrix;
+//TODO: rm external library use
+//import org.jblas.FloatMatrix;
 
 /**
  * User: Alex

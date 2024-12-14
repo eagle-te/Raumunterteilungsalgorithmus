@@ -1,10 +1,10 @@
 package version1.probier;
 
 import version1.classes.*;
-import org.jblas.util.Random;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * User: Alex
@@ -12,6 +12,9 @@ import java.util.List;
  * Time: 00:28
  */
 public class Version1Probier {
+
+    private static Random random = new Random();
+
     public static void main(String[] args) {
         Baum baum = BaumImpl.create(100.d);
         baum.add(KnotenImpl.create().initializeParticle(ElementPointer.create(Vector3d.create(1.d, 54.d, 0.d), 32.d),100.d));
@@ -28,6 +31,6 @@ public class Version1Probier {
     }
 
     static double rD() {
-        return Random.nextDouble() * 100;
+        return random.nextDouble() * 100;
     }
 }
